@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <title>Navegando em busca de seus sonhos</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="mar">
+            <p>Você finalmente completa uma certa idade e decidi viver e se aventurar pelo mundo, buscando realizar seus maiores sonhos e objetivos. Para isso você deverá escolher se irá seguir sua vida fazendo parte da Marinha, ou seguir sua vida sendo pirata, fora da lei e com grandes perigos que irá ter que enfrentar!</p>
+            <button class="btn-proximo" data-proximo="1">Ser um marinheiro</button>
+            <button class="btn-proximo" data-proximo="2">Ser um pirata</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você chegou a conclusão que vai dar o seu máximo na marinha e treinar bastante para que no futuro você possa se tornar um forte almirante.</p>
+            <button class="btn-proximo" data-proximo="3">Você vai se alistar na Marinha e correr atrás do seu sonho</button>
+            <button class="btn-proximo" data-proximo="13">Você viu que sua jornada será muito difícil e resolve desistir</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você decidiu que irá ser um pirata mesmo sabendo dos desafios que surgirão, você irá dar o seu máximo e ter a chance de encontar o lendário tesouro secreto!</p>
+            <button class="btn-proximo" data-proximo="4">Você vai começar a treinar bastante, navegar pelo vasto mar e encontrar amigos verdadeiros, assim montando sua tripulação</button>
+            <button class="btn-proximo" data-proximo="10">Você viu que sua jornada será muito difícil, ficou com muito medo dos desafios que virão e resolveu desistir</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você se alistou na marinha e está dando tudo de si. Você recebe uma tarefa para fazer, que vai fazer você subir de cargo, porém essa tarefa é muito desafiadora e requer muito esforço!</p>
+            <button class="btn-proximo" data-proximo="5">Mesmo sabendo dos perigos que irá ter que enfrentar, decido dar tudo de mim nesta tarefa</button>
+            <button class="btn-proximo" data-proximo="13">Você ficou com medo dos perigos e recusou a tarefa, dando essa tarefa para outra pessoa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você conseguiu seu primeiro navio e decidi velejar pelo imenso mar e viver aventuras!</p>
+            <button class="btn-proximo" data-proximo="6">Você vai visitar uma ilha próxima para conhecer e acostumar com a navegação</button>
+            <button class="btn-proximo" data-proximo="10">Você sentiu muito medo do mar, de ficar longe de casa e decidiu que essa vida não é para você</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Para concluir essa tarefa você vai ficar um tempo em um lugar cheio de regras e treinamentos.</p>
+            <button class="btn-proximo" data-proximo="7">Você junta suas roupas e coisas e encara de frente esse desafio</button>
+            <button class="btn-proximo" data-proximo="13">Você ficou com muito medo do que virá e resolve desistir de ir para outro lugar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você chega em uma ilha e viu que é cheia de vegetações e florestas com uma vasta abundância de diferentes tipos de árvores.</p>
+            <button class="btn-proximo" data-proximo="8">Você decidi explorar a região e de longe vê uma fruta muito diferente na qual nunca tinha visto antes. Você chega mais perto, pega a fruta e decide experimentar, se perguntando qual o sabor dela</button>
+            <button class="btn-proximo" data-proximo="10">Você chegou na ilha, viu a grande quantidade de árvores nas florestas e ficou com medo dos animais que talvez encontrara por alí</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Se passaram muitos anos e você sempre deu duro, treinando, aceitando as ordens que lhe foi dada e atualmente, como recompensa do seu imenso esforço, você se tornou um grande Almirante respeitado por todos. Você conquistou seus tesouros e sonhos que você sempre sonhou!</p>
+            <button class="btn-proximo" data-proximo="11">Você decidi treinar outras pessoas, igual você foi treinado quando mais jovem, passando suas experiências de vida</button>
+            <button class="btn-proximo" data-proximo="11">Pelo seu grande esforço e por já ter dado tudo de sí, decidi se aposentar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Muitos anos se passaram e você agora é um pirata mundialmente procurado e perseguido. Você realizou seu sonho de ter sua própria tripulação e um navio de qualidade que te acompanha em todas suas aventuras. Você finalmente conseguiu e foi o primeiro a descobrir o que é o famoso e desejado "lendário tesouro". E esse "lendário tesouro" é...</p>
+            <button class="btn-proximo" data-proximo="12">Você decidi nunca contar para os espectadores o que é o famoso "lendário tesouro"</button>
+            <button class="btn-proximo" data-proximo="12">Você decidi jamais contar para os espectadores o que é o famoso "lendário tesouro"</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10.gif" alt="imagem voltando para casa">
+            <p>Você volta para casa, mas sempre se pergunta o que seria de sua vida se você fizesse aquilo.</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo13.gif" alt="imagem voltando para casa">
+            <p>Você volta para casa, mas sempre se pergunta o que seria de sua vida se você fizesse aquilo.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.webp" alt="grande almirante feliz">
+            <p>Você está muito feliz com suas escolhas e vive muito alegre!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo12.jpg" alt="grande pirata feliz">
+            <p>Você está muito feliz com suas escolhas e vive muito alegre!</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
